@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Tour Of Document Object Model - DOM</h1>
+    </div>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+        </ul>
+    </div>
+    <script src="dom.js"></script>
+
+    <script>
+        const listCollection = document.getElementsByTagName('li');
+        for(const li of listCollection){
+            console.log(li.innerText);
+        }
+    </script>
+    
+</body>
+</html>
