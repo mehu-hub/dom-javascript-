@@ -4,27 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <section class="title">
         <h1>Tour Of Document Object Model - DOM</h1>
-    </div>
-    <div>
+    </section>
+    <section class="menu-container">
         <ul>
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
             <li>FAQ</li>
         </ul>
-    </div>
-    <script src="dom.js"></script>
+    </section>
+    <section class="menu-container" id="places-container">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+        </ul>
+    </section>
+    <section class="menu-container">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+        </ul>
+    </section>
+    <section class="menu-container">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+        </ul>
+    </section>
+    <script src="dom.js"></script> 
+    <script src="styling.js"></script> 
 
-    <script>
-        const listCollection = document.getElementsByTagName('li');
-        for(const li of listCollection){
-            console.log(li.innerText);
-        }
-    </script>
-    
 </body>
 </html>
