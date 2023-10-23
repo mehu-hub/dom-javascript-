@@ -1,4 +1,4 @@
-const listCollection = document.getElementsByTagName('li');
+/* const listCollection = document.getElementsByTagName('li');
 for (const li of listCollection) {
     // console.log(li.innerText);
 }
@@ -11,4 +11,4 @@ for (li of someLi) {
 
 // querySelector
 const getLi = document.querySelector('.menu-container')
-// console.log(getLi);
+// console.log(getLi); */
